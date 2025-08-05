@@ -1,0 +1,5 @@
+# fname=input("Enter your first name ")
+# lname=input("Enter your last name ")
+# print(fname,lname)
+fname,lname=input("Enter fname , lastname ").split()
+print(fname)
