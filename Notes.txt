@@ -68,6 +68,78 @@ for variable in range():
 for a in range(1,6)
 	print("Hello")
 
+12th Aug
+
+conditional statement 
+	if  - one
+	if else - true else false
+	if-elif - multiple condition
+	
+1. 	if comparioson :
+		stmt 
+	else :
+		stmt
+
+2. 	if comparison logical operator comparsion
+		stmt
+	
+	and or 
+
+3.	nested if
+		
+	blood donation -- age 18
+	if age>=18:
+		if weight>=50:
+			print("You are eligible for donation")
+		else:
+			printf("Due to underweight you are not eligible for donation")\
+	else:
+		print("You are not eligible to donate blood")
+
+____________________________________________________
+match /switch 
+
+match - when have a multiple conditions
+
+match condition/expression:
+	case :
+	case :
+	case :
+
+1. Addition
+2. Substraction
+3. multiplication
+4. deivision
+5. floor divison
+6. exponenet 
+
+input 2 and choice=int(input("Enter your choice"))
+1.
+
+if choice==1:
+	
+elif choice==2:
+	
+
+LOOPs
+
+	repition 
+	for - know the no of iteration then use for 
+	while - when no of itreration are not known in advance
+
+	for i in range(start,stop,steps):
+		stmt
+
+	while condition:
+		stmt
+		
+while
+	1. addition
+	2. substraction
+	3. exit
+
+		
+
 
 
 
