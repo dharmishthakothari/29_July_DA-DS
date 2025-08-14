@@ -141,6 +141,42 @@ while
 		
 
 
+________________________________
+14th Aug
+
+loops 
+	for - no of iteration (range,list)
+	while - iteration are known in advanced
+
+nested if 
+match case : multiple conditions
+
+break  ---- > breaking the loop/iteration
+continue  ----> skip the current ineration
+		if i==5:
+			continue
+		
+pass	---> nothing/placeholder 
+
+random numbers --> import
+
+
+generate 1 random number (1-10)
+
+user will Guess enter number
+guess===random
+	you win
+else
+	
+random 1-10
+
+user guess number
+guess!=randome
+	ask guess number
+
+
+
+
 
 
 
