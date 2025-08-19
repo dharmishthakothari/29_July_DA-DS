@@ -175,6 +175,100 @@ guess!=randome
 	ask guess number
 
 
+_____________________________________
+19th Aug
+
+String functions -
+upper
+lower
+title
+count
+capitalize
+find
+replace
+
+name="123456"
+name1="Tops123"
+name2="Tops Technologies"
+name4="TopsTechnologies"
+name5="Tops@Technologies"
+
+isdigit
+isalpha
+isaplnum
+
+startswith
+endswith
+
+string --- slicing / part/portion
+2-10
+T	0
+o	1
+p	2
+s	3
+	4
+t	5
+e	6
+c
+h
+n
+o
+l
+o
+g	-4
+i	-3
+e	-2
+s	-1
+
+string[start:end:step]
+
+name[0:4] - Tops
+name[0:4:2]
+
+name[8:5]
+utsav -- vtsau 
+
+
+indexing
+
+________________________
+
+Pattern
+   c1 c2 c3 c4	
+r1 *
+r2 * *
+r3 * * *
+r4 * * * *
+
+
+1
+2 2
+3 3 3
+4 4 4 4
+
+--->
+4 4 4 4
+3 3 3
+2 2
+1
+
+---->
+A
+A	B
+A	B	C
+
+chr - ord
+
+
+
+
+
+
+
+
+
+
+
 
 
 
