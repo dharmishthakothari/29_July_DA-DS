@@ -259,6 +259,37 @@ A	B	C
 
 chr - ord
 
+________________________________________
+
+21st Aug
+
+list -->  ?  1. []
+	2. under name you have multiple items
+	3. it is mutable/change
+	4. indexing
+	5. slicing
+	6. in build methods
+lst_names = ['dharmishtha','Dixita','Preksha']]
+1. Upper
+2. Lower
+3. Count vowel
+4. len
+5. exit
+
+menu driven program
+loop while,break,match,
+1. ["DHARMIHSTHA","DIXITA","PREKSHA"]
+3. [3,3,2]
+4. [11,6,7]
+
+
+
+
+
+
+
+
+
 
 
 
