@@ -284,6 +284,49 @@ loop while,break,match,
 
 
 
+23rd Aug
+
+list - slicing ,append , del, list iteration
+
+methods - 
+
+lst_name = ['Apple','Microsoft','HP']
+
+	values Apple
+		Microsoft
+		HP
+	index	0
+		1
+		2
+
+check where list contains another list or not
+lst_name=['Apple','Microsoft','HP']
+	false
+lst_name=['Apple','Microsoft','HP',[1,2,3]]
+	True
+
+indexing - 0 
+
+
+Comprehensive - 
+
+[]
+for i in lst_name:
+	print(i)
+	lst_name1.append(i)
+
+lst_name1=[i for i in lst_name]
+
+
+
+
+
+
+
+
+
+
+
 
 
 
