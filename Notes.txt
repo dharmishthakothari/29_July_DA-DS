@@ -317,6 +317,29 @@ for i in lst_name:
 
 lst_name1=[i for i in lst_name]
 
+26th Aug
+List methods -- append,insert , extend , clear  , pop 
+slicing ls[::]
+lst1= lst[1:]
+
+comprenhesive  - consice way or more readable form
+
+same dictionary 
+
+1.  lst_numbers = [11,23,78,90]
+	with comprehensive = ['Odd','Odd','Even','Even']
+
+2. lst_numbers = ['+919876543210','8766566666','+911234567890']
+comprehensive   lst_valid_contact_numbers = ['+919876543210','+911234567890']
+
+tuple 
+tuple_numbers= (1,2,3,54)
+tuple_num1 = [1,2,3,54]
+
+
+
+
+
 
 
 
