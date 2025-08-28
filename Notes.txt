@@ -336,7 +336,61 @@ tuple
 tuple_numbers= (1,2,3,54)
 tuple_num1 = [1,2,3,54]
 
+28th Aug
 
+Tuple methods 
+->index
+->count
+
+comprehensive -->
+
+set --> collection of unique elements 
+st_numbers = {1,2,3,4,5,"1",2,1}
+
+union
+intersection
+difference 
+set1={1,2,3,4}
+set2={2,3,56,34}
+
+
+set3 = set1 & set2
+print(set3)
+
+set4=set1 | set2
+print(set4)
+
+set5 = set1 - set2
+print(set5)
+
+dictionary --> key and value pair
+key is unique
+value may be dublicate
+
+dict1= {1:"qwerty" , 
+	2:"lkjhg",
+	3:"ccccc",
+	4:1234,
+	"1":1234,
+	2:6789
+}
+}
+
+1. key 
+2. values
+3. items
+
+indexing 
+
+dic_student =
+{
+	1234:["Dixita",123456,"C G Road"],
+	4567:["Utsav",345754,"Paldi"]
+}
+lst_number = [22,33,11,77,66]
+lst_number[1]
+
+dict[4567]
 
 
 
