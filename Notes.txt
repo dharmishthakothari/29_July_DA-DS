@@ -392,6 +392,85 @@ lst_number[1]
 
 dict[4567]
 
+2nd Sep
+
+set,dictionary 
+
+union,intersection ,diffrence 
+dict - keys,values,items 
+
+list-tuple-dict-set
+
+st_number = {}
+
+type(st_number)
+
+index /key
+
+dict1={"1":"123456",
+	"2":"456456",
+	"name":"ueiruer"	
+}
+
+dict1['name']
+
+
+123 : ['Utsav','C G Road',120],
+345 : ['Dixita','Parimal',190],
+456:['Dhruvi','S G Highway',230]
+
+123
+	usav
+	C G Road
+	120
+345
+	Dixita
+	Parimal 
+	190
+
+Lab task
+1. find those students who got marks greater than 200
+
+Lab task 
+2. Summation of all marks
+
+student data with menu 
+roll_number - key
+name as value
+
+1. for add
+2. for edit
+3. delete 
+4. view all
+5. search 
+
+when you are coping from one dictionary to another 
+at that time if original dictionary change/edit value then what about copied dictionary?
+
+pop
+popitem
+setdefault
+
+collection - done
+
+topics -->
+set , indexing , slicing , dictionary , tuple
+list , loops (for-while)
+conditional stmt  (if-elif)
+string
+data types
+operators
+
+
+
+
+generator-iterator 
+
+functions  - 
+
+
+
+
 
 
 
