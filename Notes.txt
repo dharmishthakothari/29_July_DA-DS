@@ -533,11 +533,84 @@ Lab task ->Sequnece default paramter
 -->Factorial no of given number if use is not enter number then you havbe to take default as 1
 
 
+6th Sep
  
 
 
-
+1. from number 1 -10 sum
+2. reverse string withut using function
+3. list of string sort  lst = ['ahemdabad','surat','baroda']
 	
+
+
+default 
+variable  *args
+keyword  **kwargs
+
+Lab task sequece 
+
+*args parameter
+**kwargs 
+e.g def emp_details(name,age,**k):
+
+-->lambda 
+annonymus function / no name
+inline
+short function/ no complex logic
+
+lambda argument : expression
+
+def square(num):
+	return num*num
+
+square(4)
+
+2nd example
+
+def square(num):
+	if num%2==0:
+		return num*num
+
+
+
+
+prime number 
+
+divisable by  1-number
+
+4 == 2-3
+17 = 2-16
+99 = 2-98
+
+4%2 ans =0
+break
+
+99%2=rem
+99%3 = 0
+break
+	
+num=17
+flag=1
+for i in range(2,num):
+	if num%i==0:
+		flag=0
+		break
+if flag==0:
+	print("Not Prime number")
+else:
+	print("Prime number")
+
+1st iteration 17%2 = 
+2nd 	17%3 = 
+3rd 	17%4 = 
+16th iteration 17%16=
+
+num= 15
+1st iteration 15%2 = 
+2nd 	15%3 = 
+
+
+1-100 prime numbers 
 
 
 
