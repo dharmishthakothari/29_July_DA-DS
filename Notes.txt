@@ -613,14 +613,36 @@ num= 15
 1-100 prime numbers 
 
 
+11th Sep
+
+map  - functions and iterator map together
+	map(square,list_numbers)
+
+def square(num)	
+	return num*num
+
+map(lambda num:num*num,[])
 
 
+convert city name into upper whose length is greater 5 
 
 
+filter len >5
 
+Lab task : list of string which have vowel in string
+lst_cities = ['rajkot','ahmedababd','surat','lynn']
 
+lst_vowel_list = ['rajkot','ahmedababd','surat']
 
+--filter the prime elements from list 
 
+map-filter 
+
+base_lst1 = [1,2,3,4]
+pow_lst2 = [1,4,5,2]
+pow 1^1 2^4 3^5 4^2
+
+reduce -  
 
 
 
