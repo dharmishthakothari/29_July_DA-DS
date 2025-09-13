@@ -644,16 +644,68 @@ pow 1^1 2^4 3^5 4^2
 
 reduce -  
 
+13th Sep
+
+string ----- methods-slice
+loops	---- while for
+conditional stmt ----- if,if elif,match
+operators 
+collection - list,tuple,set,dictionary
+map ,filter,reduce
+functions - parameters 
+
+iterator / Generator
+recursive function
+file handling
+exceptions
+OOPS
+
+
+iterator  ? 
+
+iter
+next
+
+Generator -- memory management/efficeient 
+
+def test():
+	return "hello"
+
+test()
+test()
+
+def test():
+	yield 
+
+recursive function 
+	function calles itself
+	1. base (break)
+	2. recusive 	
+
+def name(par):
+	return name(par)
+
+for i in range(1,5):
+	fact=fact*i
+
+print(fact)
+
+def fact(num):
+	for i in range(1,num):
+		fact=fact*i
+	return fact
+
+1-10 sum
 
 
 
 
+nested dictionary 
 
 
-
-
-
-
+petrol  -- brands - modals 
+ev
+diesal
 
 
 
