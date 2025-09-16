@@ -707,13 +707,65 @@ petrol  -- brands - modals
 ev
 diesal
 
+16th Sep
+
+1. Enter Type of Cars
+2. Enter brand name
+3. Enter car name
+4. Exit
+Enter your choice : 1
+Please enter (EV/Petrol/Deisal) : EV
+it displays all EV car ditails 
+
+again  ask menu 
+2
+Please enter (Maruti/Kia/Hyudai) 
+Kia
+display all the kia details (includes both ev-petrol)
+
+again  ask menu 
+3 Please enter (Belono,Seltos,...)
+Seltos
+
+display all deltos details 
+
+validation 
+
+sel
+
+File - Data store , classification ,
+what we can use of file ---> write , read ,append , share
+		
+Write 
+Read 
+
+methods - inbuild
+
+Lab Task ---  Menu Driven Program 
+1. Read whole file
+2. Read perticular line
+3. Read perticular line with character
+4. exit
+
+1 Enter file name
+
+
+2. Enter file name
+   Enter line number 
 
 
 
 
+For reading file
+	read
+	readline
+	readlines
+For writing
+	write
+	writelines
 
-
-
+with 
+file cursor
 
 
 

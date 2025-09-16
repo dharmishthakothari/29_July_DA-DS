@@ -1,0 +1,5 @@
+file=open('dict_Example5.py','r')
+data=file.read()
+#data=file.read(40)
+print(data)
+file.close()
