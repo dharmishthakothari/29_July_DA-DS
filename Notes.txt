@@ -767,6 +767,32 @@ For writing
 with 
 file cursor
 
+18th Sep
+
+
+1. Write data from console and write it into file
+	input 
+	write
+
+	1. file open
+		data from colsole 
+		while 
+		data==END
+			break
+		file.write(data)
+with 
+	
+Lab task --- 2. Copy data from one file to another
+
+json files ?
+
+form of data in dictionary 
+
+json 
+	dump - writing
+	load - reading
+
+
 
 
 
