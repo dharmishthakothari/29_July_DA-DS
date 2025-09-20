@@ -792,6 +792,40 @@ json
 	dump - writing
 	load - reading
 
+20th Sep
+
+File --- read , write ,with , json (read, write)
+	seek , 
+		tell-->position of cursor (before reading file content use tell and 
+after reading whole file use tell)
+
+	seek -->put cursor position on specified location
+ 
+Exception ? 
+
+	keyerror
+
+	unexceptional event , divide by 0 3/0  , filenot found
+
+	no=int(input("Enter number"))
+	
+	
+	it's breaks normal flow of execution
+
+	no=int(input("Enter number"))
+	stmt
+	stmt
+	stmt
+
+	Handle exception
+	try - except 
+
+	try - multiple except convert int-ValueError
+			/0   - ZZeroDivisionError
+
+	
+
+
 
 
 
