@@ -824,8 +824,54 @@ Exception ?
 			/0   - ZZeroDivisionError
 
 	
+23th Sep 
+
+try
+except - it will excute when there is error 
+else  - it will execute when there is no error in try
+finally  - it will execute whether error or not
+raise - it will explictly raise the exception based condition 
+
+we are createing our own exception.. customexception 
+
+extends - Exception class
+
+class excpetionName(Exception):
+	stmt
+
+PasswordIncorrect --> check length should be more then 8 letters and one letter must be digit
+
+Module ----
+
+MathOperation.py
+
+def add(num1,num2):
+    return num1+num2
+def sub(num1,num2):
+    return num1-num2
+
+#user defined 
+import MathOperation
+MathOperation.add(23,34)
+MathOperation.sub(20,45)
 
 
+#2nd way to import 
+#for specific function import
+from MathOperation import add
+add(34,67)
+
+Package - Directory (related files )
+
+
+OOPS - Object Oriented Programming 
+
+Concepts/features  ----> class
+						 object
+						 Inheritance
+						 Polymorpisum
+						 Abstraction
+						Encapsulation
 
 
 
