@@ -875,6 +875,44 @@ Concepts/features  ----> class
 
 
 
+25th Sep
+
+DA/DS ---- Find Job Description/Designation
+OOPS ----
+		class -- blueprint of object or it is collection of object .
+                 It have data members and member function
+				Human is class , data (nose,eyes,hands,head.....) functions (speak,listne,run,walking..._)
+                Person is class , data (name,c_no,address) functions (display,get....)
+				Employee is class , data (name,c_no,address,department,salary,designation ) functions (display,get , calculateSalary , ...)
+				Car is class , data (brand , model,price , ) functions (drive,...)
+		Object --- Type of class .Real entity 
+					dharmishtha=Human()
+					aksar = Person()
+					ronak=Person()
+					anish=Person()
+					until er are not creating object class is on use.
+
+					when you are accessing memeber of class/boject then use . 
+
+					ronak.name
+					ronak.c_no
+
+			
+					
+
+
+
+
+
+
+
+
+
+					
+     
+
+
+
 
 
 
