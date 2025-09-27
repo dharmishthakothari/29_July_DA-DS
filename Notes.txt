@@ -897,7 +897,25 @@ OOPS ----
 					ronak.name
 					ronak.c_no
 
-			
+27th Sep 
+
+    class object ---> 
+	initlization - getDetails(self,name,age)
+
+	init - it calls automatically 
+		 - it use to initialize variables 
+
+  Inheritance ----> Parent - child relation
+                    Property one class can use property another class
+                    Reusability
+                    Person - name,age,c_no
+					Employee - name,age,c_no,salary,department --- Person 
+					Person is super/base/parent class - Employee is sub/derived/child class
+					Types of inheritance 
+					Single Inheritance 
+					hierachical inheritance 
+
+
 					
 
 
@@ -910,6 +928,7 @@ OOPS ----
 
 					
      
+
 
 
 
