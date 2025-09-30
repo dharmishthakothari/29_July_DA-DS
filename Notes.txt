@@ -916,7 +916,156 @@ OOPS ----
 					hierachical inheritance 
 
 
-					
+	30th Sep
+
+class and object 
+sub class - super class  ---- Parent and child 
+property of one class can use property of another class
+reusability 
+Vehical - Car - Scooter   -- super() 
+
+__init__ -->To intilize object , called automatically 
+
+Create class ---> Person (name,age,address) , 
+			---> Student (name,age,address ,marks,percentage)
+			-->Employee (name,age,address,department,salary)
+			--> display data of student
+			--->use inheritance if required
+			-->Use init to inilize object
+
+		is a relationship Student is Person 
+						 Employee is Person	
+
+		--- 
+
+Inheritance types 
+		Single Inheritance -- person ---Employee
+		Multiple Inhertiance -- Father-child and Mother - child
+		Multilevel Inheritance  ---GrandParent ---Parent ---Child
+		Hierchical Inheritance - Person ---Student & person ---Employee
+		Hybrid Inheritance  - mixing to any inheritance 
+
+
+Polymorphsium 
+Abstraction
+Encapsulation 
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -928,6 +1077,7 @@ OOPS ----
 
 					
      
+
 
 
 
