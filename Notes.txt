@@ -946,11 +946,47 @@ Inheritance types
 		Hybrid Inheritance  - mixing to any inheritance 
 
 
+
 Polymorphsium 
 Abstraction
 Encapsulation 
 
-		
+		4th oct
+
+Polymorphisum :  Many forms ?
+
+Ability to take more then one form . 
+
+1. Compile time Polymorphisum --- Static bindindg -->method overloading (same method name and diffrent arguments/paramters) / Operator Overloading (23+90) (p1+p2)
+
+def add(num,num2)
+def add(num,num2,num3)
+
+It is not supported in python ? with default paramter , var arguments we can achive
+def add(num,num2,num3=0)
+add(23,34)
+add(23,45,56)
+
+Operator Overloading uses some special methods : __add__
+												__gt__
+												__eq__
+
+2. Run time polymorphisum ---> Dynamic binding --Method overriding (same name same arguments )
+def add(num,num2)
+def add(num1,num2)
+------>Point (x,y_ initlize and display to x and y cordinate
+
+p1__add__(p2)
+
+super() is use to call the members of super/parent class 
+
+
+
+Lab task : To perform hybrid inheritance 
+		 : multilication Operator Overload 
+		 : equal operator 
+		: Distance class (feet,inches)
+		: Employee class (name,c_no,salary
 
 
 
@@ -1077,6 +1113,7 @@ Encapsulation
 
 					
      
+
 
 
 
