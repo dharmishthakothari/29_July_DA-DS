@@ -989,7 +989,62 @@ Lab task : To perform hybrid inheritance
 		: Employee class (name,c_no,salary
 
 
+7th Oct
 
+--- Abstraction  ---> 
+			hiding unnessary details and shwoing only essential details 
+			abc module 
+			ABC (Abstract Class), abstractmethod decorator 
+		Abstract - Non acstract/concrete - difference 
+		- abstarct method must override/implement
+		- object create 
+		-abstract constains abstract and non abstract method while concreate class have only concrete methods
+		-ABC , abstractmethod decorator @
+class A(ABC): 
+	PASS
+class B(A)
+	pass
+
+create class called Shape havinf 2 methods calculateArea , calculateperimeter .
+create 2 class named Rectangle,Square and MUST implement calculateArea & calculatePerimater from Shape class 
+
+	
+	
+
+---Encapsulation 
+
+		data biding , wrape data and function together 
+		data hide , 
+		name , tech , c_no --- public
+		address , details,salary  - private  ? 
+		public 			-	 default    --- name
+		protected    - when i want to share with sub class  ---  _address
+		private   - within class only -- __salary
+
+	getter and setter to access private data 
+
+getSaalry
+setSalary
+
+
+Hybrid -  ierachical ,single , multiple , multilevel
+
+Hybrid 
+
+class A:
+	def greet(self):
+		print("Hello")
+class B(A):
+		pass
+class C(B): 
+		pass
+class D:
+		def greet1(self)
+			print("Have a nice day")
+class E(C,D):
+		pass
+
+Lab task : abstarct , enclpusulation , Shape  , definitions 
 
 
 
@@ -1113,6 +1168,7 @@ Lab task : To perform hybrid inheritance
 
 					
      
+
 
 
 
