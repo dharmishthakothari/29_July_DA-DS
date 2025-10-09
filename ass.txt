@@ -1,0 +1,91 @@
+class ClinicAppointment:
+	def bookApprointment(self):
+		name=input("Enter patient Name")
+		age = int(input("Enter Age")
+		mobile_num = int(input("Enter Mobile number "))
+	
+
+	def cancle(self):
+		pass
+	def viewApp(self):
+		pass
+	def checkAvaibility(self_:
+		pasds
+
+
+
+doctor - available - slots 
+
+Mr. Shah - 10 am ,11 am ,  2 pm
+Mr. Patel - 11 am ,12 pm ,2 pm
+Mr. Modi - 10 am, 11 am 
+
+dict1 = {'Mr. Patel' :{'10 am':0,'11 am':0,'2 pm':0} ,
+	'Mr. Shah' : 	{'11 am':0,'12 am':0,'2 pm':0},
+	'Mr. modi' : {'10 am':0 ,'11 am':0}
+	}
+
+
+book appointe
+ name = xyz
+ age = 20
+ m_no = 12345678
+prefer doct (Mr. Shah , Mr. Patel , Mr. Modi) : Mr. Patel 
+time (11 am , 12 pm , 2 pm) ? = 12 pm
+Your approintment is booked 
+
+2nd secnario 
+
+ name = xyz
+ age = 20
+ m_no = 12345678
+prefer doct (Mr. Shah , Mr. Patel , Mr. Modi) : Mr. Patel 
+time (11 am , 12 pm , 2 pm) ? = 3 pm
+Doctor unavailable 
+
+3rd scenario
+
+3 appointment 
+
+ name = xyz
+ age = 20
+ m_no = 12345678
+prefer doct (Mr. Shah , Mr. Patel , Mr. Modi) : Mr. Patel 
+time (11 am , 12 pm , 2 pm) ? = 2 pm
+
+
+ name = xyz1
+ age = 20
+ m_no = 2345678
+prefer doct (Mr. Shah , Mr. Patel , Mr. Modi) : Mr. Patel 
+time (11 am , 12 pm , 2 pm) ? = 2 pm
+
+
+ name = xyz2
+ age = 20
+ m_no = 345678
+prefer doct (Mr. Shah , Mr. Patel , Mr. Modi) : Mr. Patel 
+time (11 am , 12 pm , 2 pm) ? = 2 pm
+
+ name = xyz3
+ age = 20
+ m_no = 45678
+prefer doct (Mr. Shah , Mr. Patel , Mr. Modi) : Mr. Patel 
+time (11 am , 12 pm , 2 pm) ? = 2 pm
+Mr Patel is already booked for this time slots 
+Do you want another time?Y
+time (11 am , 12 pm , 2 pm) ? = 11 am
+Booked 
+
+
+chllange collection 
+
+
+
+
+
+
+
+
+
+	
