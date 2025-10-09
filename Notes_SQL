@@ -1,0 +1,55 @@
+SQL --- > Database , data store  , amazone - products 
+          data management , username - password 
+          insta - database / permanent store 5 after years 
+
+        files 
+                Manipulation - insert ,update,delete easily 
+
+        database - database management system - relational database management system 
+        DB          DBMS                        RDBMS
+                    -multile objetcs(table        relatable 
+                      views , procedure , function)
+
+
+        SQL - Strucure Query Language 
+        Tools - Mysql , ms-access , mongodb , SQL server , SQLite ,Postgre
+
+        - Queries - DDL - DML - DCL -DQL 
+          constraints 
+          in,between , and-or, like , wild characters 
+          order by , having , group by
+          sub quiies  - 
+          views 
+          procedures - functions 
+          cursor 
+          PL-SQL (if , loop)
+
+  MYSQL server 
+  Mysql workbench - GUI 
+
+
+    create database - commands 
+
+
+1. create database   <<databasename>>
+    create database SQL_DA_DS 
+
+   comment ? Non - executable part 
+    single --
+    multile line /*   */
+    
+2. use <<database_name>>
+    use SQL_DA_DS
+
+3. 
+
+create table , data types constaints 
+
+
+
+
+
+
+
+
+    
