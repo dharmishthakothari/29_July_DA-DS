@@ -1,0 +1,108 @@
+SQL --- > Database , data store  , amazone - products 
+          data management , username - password 
+          insta - database / permanent store 5 after years 
+
+        files 
+                Manipulation - insert ,update,delete easily 
+
+        database - database management system - relational database management system 
+        DB          DBMS                        RDBMS
+                    -multile objetcs(table        relatable 
+                      views , procedure , function)
+
+
+        SQL - Strucure Query Language 
+        Tools - Mysql , ms-access , mongodb , SQL server , SQLite ,Postgre
+
+        - Queries - DDL - DML - DCL -DQL 
+          constraints 
+          in,between , and-or, like , wild characters 
+          order by , having , group by
+          sub quiies  - 
+          views 
+          procedures - functions 
+          cursor 
+          PL-SQL (if , loop)
+
+  MYSQL server 
+  Mysql workbench - GUI 
+
+
+    create database - commands 
+
+
+1. create database   <<databasename>>
+    create database SQL_DA_DS 
+
+   comment ? Non - executable part 
+    single --
+    multile line /*   */
+    
+2. use <<database_name>>
+    use SQL_DA_DS
+
+3. 
+
+create table , data types constaints 
+
+
+11th oct 
+
+Database create , SQL commands 
+
+Database collection of objects  - tables,functions , procedures ,views 
+
+tables ---> ? arrangements of datas
+                    rows and columns
+                    collection of data
+                    student table  - row and column , data 
+                    employee - row/column , data
+                    order - row/clumn , data 
+
+how we create table ?
+
+DDL  - Data definition Language - related to table (create . alter ,drop )
+
+          table creation ----> 
+                              student - name , id , age , mobile_no , address 
+                              employee - name , id,age, salary , dept , mNo , address 
+
+          syntax :  create table <<tableName>> (column_name datatype(size) constraints , coumn_name datatype(size) constraints , 
+                              column_name datatype(size) constraints , column_name datatye(size) constraints,....)
+
+                    datatype : which type of data we are storing that is specified by data type
+                               numeric  - int ,bigint ...decimal
+                               string          - varchar , char ,text ...
+                               date-time        - datetime .. 
+                               object           - blob , clob 
+
+                             
+
+          eg. create table student (student_id int , student_name varchar(20), 
+                                        age int,mobile_no int,address varchar(200))
+
+
+          ALTER - to increcrese size, add comlumn,column modify , delete 
+                    syntax : alter table <<tablename>> add column_name size
+                              alter table <<tablename>> modify  column_name size
+                              alter table <<tablename>> drop  column_name 
+                              
+          DROP - permanent DROp table 
+                    drop table <<table_name>>
+
+Lab task :--- create Table --- employee - name , id,age, salary , dept , mNo , address 
+                    add coumn - hire_date date
+
+
+DML  - DAta Manipulation Language - related to data (insert , updating , delete)
+DQL  - Data Query Language - filter data  (select)
+DCL -  Data control Language - access (grant - revoke)
+
+
+                    
+
+
+
+
+
+    
