@@ -46,7 +46,60 @@ SQL --- > Database , data store  , amazone - products
 create table , data types constaints 
 
 
+11th oct 
 
+Database create , SQL commands 
+
+Database collection of objects  - tables,functions , procedures ,views 
+
+tables ---> ? arrangements of datas
+                    rows and columns
+                    collection of data
+                    student table  - row and column , data 
+                    employee - row/column , data
+                    order - row/clumn , data 
+
+how we create table ?
+
+DDL  - Data definition Language - related to table (create . alter ,drop )
+
+          table creation ----> 
+                              student - name , id , age , mobile_no , address 
+                              employee - name , id,age, salary , dept , mNo , address 
+
+          syntax :  create table <<tableName>> (column_name datatype(size) constraints , coumn_name datatype(size) constraints , 
+                              column_name datatype(size) constraints , column_name datatye(size) constraints,....)
+
+                    datatype : which type of data we are storing that is specified by data type
+                               numeric  - int ,bigint ...decimal
+                               string          - varchar , char ,text ...
+                               date-time        - datetime .. 
+                               object           - blob , clob 
+
+                             
+
+          eg. create table student (student_id int , student_name varchar(20), 
+                                        age int,mobile_no int,address varchar(200))
+
+
+          ALTER - to increcrese size, add comlumn,column modify , delete 
+                    syntax : alter table <<tablename>> add column_name size
+                              alter table <<tablename>> modify  column_name size
+                              alter table <<tablename>> drop  column_name 
+                              
+          DROP - permanent DROp table 
+                    drop table <<table_name>>
+
+Lab task :--- create Table --- employee - name , id,age, salary , dept , mNo , address 
+                    add coumn - hire_date date
+
+
+DML  - DAta Manipulation Language - related to data (insert , updating , delete)
+DQL  - Data Query Language - filter data  (select)
+DCL -  Data control Language - access (grant - revoke)
+
+
+                    
 
 
 
