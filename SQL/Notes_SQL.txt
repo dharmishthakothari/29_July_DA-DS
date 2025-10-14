@@ -98,6 +98,42 @@ DML  - DAta Manipulation Language - related to data (insert , updating , delete)
 DQL  - Data Query Language - filter data  (select)
 DCL -  Data control Language - access (grant - revoke)
 
+14th oct 
+---> describe student
+
+          to alter table we have alter command
+
+
+Constraints --- > boundry / limitation / condition 
+
+1. Primary key          ---> To Uniquely identify record , nmust be unique and not null 
+                    ---> we have one primary key in table 
+                              
+
+2. Unique key          --> Multiple Unique key in table and it allows one value as NULL
+3. Not null            --> MUst have some values
+4. Default             --> set default value                 
+5. check               -->  check the values age>18
+6. Foreighn key        --> references to another table (Employee - Department   Department - HR,Sales,Product,Finance 
+                                                                                Employees - 100 - belogs to these 4 department only 
+                                                                                      employee is references/related/belongs to department 
+                                                           Student - Course   courses - 10 
+                                                                                students - 200 
+                                                                                          students are references/registerd/enrolled to Courses 
+
+
+table 
+
+DML --- work with Data only  -insert update delete 
+
+
+insert into <<table_name>>(col1,col2,col3....) values(value1,value2,value3, ......)
+
+insert into <<table_name>> values(value1,value2,value3.....)
+
+
+
+
 
                     
 
