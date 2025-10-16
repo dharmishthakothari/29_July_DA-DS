@@ -50,4 +50,17 @@ insert into student_table(student_name,email,age,address,contact_no,city)
 	values
     ("mmmmmm","mm@gmai.com",30,"Navarangpura",88888,"Surat")
     -- ("Dhruvi" ,"dh@gmail.com",21,"Narayanpura",34234,"Ahmedabad")
-    
+
+16th Oct 
+
+select emp_name,salary,emp_id from employees;
+
+select emp_name,salary,emp_id as 'Employee Identity' from employees;
+
+select emp_name,salary,emp_id as 'Employee Identity' from employees where salary>5000;
+
+select * from employees where salary>5000 and emp_id>105
+
+select * from employees where salary>5000 or emp_id>105
+
+select * from employees where salary between 4500 and 5000;
