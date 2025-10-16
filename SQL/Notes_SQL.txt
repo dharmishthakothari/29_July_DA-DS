@@ -131,11 +131,27 @@ insert into <<table_name>>(col1,col2,col3....) values(value1,value2,value3, ....
 
 insert into <<table_name>> values(value1,value2,value3.....)
 
+16th Oct 
+
+update <<table_name>> set coolumn_name = value where column_name/key=value
 
 
+delete from <<table_name>> where column_name/key=value
 
+DQL - Data Query Language - select - filter data 
 
-                    
+          select query doesn't affect data
+       eg   employees whose salary is more then 7000
+            employees whose name starts with 'D'
+           employees who belogns to HR dept
+            employees whose salary is max
+            employees whose city is Baroda
+            departement wise paid salary 
+
+clause --- where , and ,or,between and , in , like , order by ,(Join) group by , avg , min ,max ,sum ,count , having ,limit ,as 
+
+1. 
+
 
 
 
