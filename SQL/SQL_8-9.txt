@@ -1,0 +1,285 @@
+1. Database - collection of data - 
+	eg. E-commerce database , social media/facebook/gmail
+2. DBMS - Database Management System 
+	Database + Management + System 
+	manage data
+3. RDBMS - Relational Database management System
+4. Tools - Mysql , Postgre , Ms-Access ,SQlite 
+		Language SQL - Structure Query Langauge 
+5. Mysql Server download 
+6. MySql Workbench  download
+
+7. Database Objects 
+	tables , functions , procedure ,triggers ,cursor ,views 
+SQL  - Commands 
+1. DDL 	- Data Definition Langauge 
+	  - create 
+          - alter
+          - drop 
+   create syntax  - create table <<table_name>> (column_name datatype(size) constraints , 
+column_name datatype(size) constraints,
+column_name datatype(size) constraints,
+column_name datatype(size) constraints,
+.........)
+
+student 
+id	name	couse	email		c_no		fees
+101	Sarthak	Python 	s@gmail.com	8988888
+102	Anis	DA	a@gmail.com	34232323
+103	Aneri	SE	a1@gmail.com	4564565
+
+Constrains are limitation/conidtion/broundry 
+
+data types - Numeric  (decimal (23.45), non-decimal(321)
+	     characters 
+		datetime
+             object 	
+
+create table student(id int,
+name varchar(20),
+course_name varchar(20),
+email varchar(20),
+c_no int(10))
+
+Lab task : Create table named customer cid ,cname , address ,email,c_no 
+	   data inserted 10 data 	
+
+
+
+Constratins 
+Alter
+Drop table 
+
+
+
+
+2. DML  - Data Manipulation Language
+3. DCL  - Data Control Language
+4. DQL  - Data Query Language 
+
+15th Nov - 
+DDL - Data Definition Language 
+	create table <<table_name>>(column_name datatype(size) constration....)
+
+constratins 
+- primary key -uniquly indentify record.It is not NULL,not allowed dublicate e.g customer_id,student_rollNo,Emp_id
+- Unique key - uniquecly indetify record .use NULL as one value mobile,email
+-not Null -Doesn't allow NULL value,allows dublicate values
+-Default - set default value
+-check - check the value 
+-foerigh key - referrence to another table
+
+
+
+department did,dname 
+	Dept_id	dept_name	location	description head		
+	101	sales
+	102	Admin
+	103	Finance
+
+
+employee 
+	emp_id	ename		c_num	age	address	dept_id
+	101	dharmishtha	123456	30	parimal	101
+	102	Ami		222222	20	cg road	103
+		
+
+alter table 
+-already created table you can alter 
+eg add column , change column,drop column
+		
+	- alter table employee drop age
+	-alter table employee modify ename varchar(100)
+
+
+	
+ DML  - Data Manipulation Language - related to data
+- insert 
+	insert into <<table_name>>(columnname,co....)
+	values(1,'ttttt',23,343434)
+
+- update 
+- delete 
+
+
+lab task : Customer table 
+		cid PK
+		cname not null
+		address 
+		amount check more then 2000
+		birth_date date default 
+	2. insert records customer 20 
+
+18th Nov
+	DML 
+
+	tables
+		department - dept_id PK,dept_name
+		employee - eid PK, ename , email,salary ,city ,dept_id FK departmentTable
+
+	create table 
+
+comments -
+-- single line
+/* */ multiline
+
+update 
+
+update table_name set col_name=value where condition
+
+emp_id 15 salary =12000
+
+
+DML - insert update delete 
+DQL - select
+	
+Lab task : 
+
+CREATE TABLE departments (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(50)
+);
+
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50),
+    gender CHAR(1),
+    salary DECIMAL(10,2),
+    hire_date DATE,
+    dept_id INT,
+    FOREIGN KEY (dept_id) REFERENCES departments(dept_id)
+);
+
+INSERT INTO departments VALUES
+(1, 'HR'),
+(2, 'Finance'),
+(3, 'Sales'),
+(4, 'IT');
+
+INSERT INTO employees VALUES
+(101, 'Amit Sharma', 'M', 60000, '2021-03-12', 3),
+(102, 'Priya Singh', 'F', 75000, '2019-11-20', 2),
+(103, 'Ravi Patel', 'M', 55000, '2022-01-05', 3),
+(104, 'Neha Verma', 'F', 90000, '2018-07-15', 4),
+(105, 'Karan Mehta', 'M', 50000, '2023-04-10', 1),
+(106, 'Sneha Rao', 'F', 95000, '2020-05-25', 4);
+
+
+Display all columns from the employees table.
+
+
+Show only employee names and their salaries.
+
+
+List all female employees.
+
+
+Display the names of employees who work in the IT department.
+
+
+Find employees whose salary is less than ₹60,000.
+List employees whose salary is between ₹55,000 and ₹90,000.
+
+
+Display all employees whose name starts with “N”.
+
+
+Show all employees whose name ends with “a”.
+
+
+Display employees who joined in the year 2023.
+
+
+List all male employees from the Sales department.
+
+
+Find all employees whose department ID is either 2 or 4.
+
+
+Show departments whose name starts with ‘S’.
+
+
+Count how many departments exist in the company.
+Sort departments alphabetically.
+
+
+Show each employee’s name with their department name.
+
+
+Display employee name, department name, and salary for all employees.
+Find the average salary of each department.
+
+
+Count total employees in each department.
+
+Second Example 
+
+Tables:
+customers – cust_id , cust_name , city , email , join_date 
+products –  prod_id,  prod_name ,category , price , stock
+orders – order_id , cust_id , order_date , status (status like delivered,pending,cancelled)
+order_items – order_item_id ,order_id , prod_id ,  quantity 
+
+Queries 
+
+Display product names with their stock quantity.
+
+
+Show customers whose name starts with “S”.
+
+
+Display the cheapest product.
+
+Show each customer’s name and the total value of their delivered orders.
+
+Show the number of “Delivered” vs “Cancelled” orders.
+
+Find customers who have never placed an order.
+
+
+List all products that have been ordered more than 2 times.
+
+
+
+20th nov 
+
+DQL - select - filter
+
+eg. fetch records who got more 50000
+    Displaty name of employees who joins in May month 
+    Dsiplay details of employees whose salary is in range of 20000 to 50000
+    Display the emp_name,emp_hiredate,salary who lives in ahmedabad,baroda
+    Display the details of employees whose name starts with 's'
+    Display the details of employees whose name is 6 character long 
+	
+
+select - doesn't affect your data 
+ clauses - where 
+		and - more then one condition
+		or - more then one condition 
+		between and - range
+		in - within that perticula names 
+		like - string/varchar  
+		
+		Operators - >,<,>=,<= 
+		is NULL - 
+
+like - meta characters % - for multiple charancter 
+_  - for single character 
+
+
+
+
+
+
+
+
+
+
+
+			  	
+
+
+
+
+
