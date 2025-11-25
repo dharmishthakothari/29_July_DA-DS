@@ -267,6 +267,83 @@ select - doesn't affect your data
 like - meta characters % - for multiple charancter 
 _  - for single character 
 
+22nd Nov
+
+ - order by - asecending order 
+ - agregate functionn  - max,sum,min,avg ,count
+- joins 
+
+-- Dsiplay sum of salary department wise\
+-- Dsiplay maximum salary in each deparment
+- Counter no of employees in each deparment 
+
+
+Aggregate functions
+
+SELECT MIN(column_name)  FROM table_name WHERE condition;
+
+SELECT SUM(column_name) FROM table_name WHERE condition;
+
+
+The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of employees in each department".
+
+The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+
+
+
+The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+
+
+SELECT column_name(s) FROM table_name  WHERE condition GROUP BY column_name(s)
+HAVING condition ORDER BY column_name(s);
+
+
+
+
+SELECT column_name(s)  FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;
+
+
+SELECT column_name(s) FROM table1 JOIN table2 ON table1.column_name = table2.column_name;
+
+
+LEFT Join
+
+SELECT column_name(s) FROM table1 LEFT JOIN table2
+ON table1.column_name = table2.column_name;
+
+
+The LEFT JOIN keyword returns all records from the left table (table1), even if there are no matches in the right table (table2).
+
+
+Right Join
+
+SELECT column_name(s) FROM table1 RIGHT JOIN table2 ON table1.column_name = table2.column_name;
+
+The RIGHT JOIN keyword returns all records from the right table (table2), even if there are no matches in the left table (table1).
+
+Full Join
+
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition;
+
+25th Nov
+- joins when you want to fetch records from 2/more tables then you join , 
+	it is based on commann field
+- group by fetch the recored accouding to perticular filed like deparment wise / customer wise reoccrd/product wise
+- agreegate function - max,min,sum,count,avg
+- having 
+	when i want put the condition based on grouping
+
+- limit 
+
+select cust_name , city , email,order_date , status from customers ,orders
+where customers.cust_id=orders.cust_id 
+and month(order_date)=8 and year(order_date)=2024
+
+- sub quires 
 
 
 

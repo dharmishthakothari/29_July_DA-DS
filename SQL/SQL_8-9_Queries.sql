@@ -53,12 +53,10 @@ insert into department values(3,"Production") ,
 select * from department
 
 insert into employee_master(ename,city,salary,email,dept_id)
-values("Dharmishtha","Ahemdabad",3654,"dhar@gmail.com",4) ,
-("Snehal","Jamnagar",3968,"s@gmail.com",2),
-("Preksha","Surat",12300,"pre@gmail.com",5),
-("Dixita","Ahemdabad",5300.67,"dixi@gmail.com",5) ,
-("Dhruvi","Jaipur",1200.45,"s@gmail.com",3),
-("Harmi","Surat",15000.25,"har@gmail.com",2)
+values("jil","Ahemdabad",1234,"dhar@gmail.com",null) ,
+("Dhruv","Jamnagar",3968,"s@gmail.com",null),
+("Nikunj","Surat",9023,"pre@gmail.com",null)
+
 
 select * from employee_master
 
@@ -109,6 +107,69 @@ select * from employee_master where ename like '_a____'
 -- Display details of employees whose name contains last second letter 'h'
 select * from employee_master where ename like '%h_'
 
+-- 22nd Nov
+
+-- Display the records ascentiding to city 
+select * from employee_master order by city,ename
+
+-- Dsiplay the recored decending wise ename 
+select * from employee_master order by ename desc
+
+-- Display employee details with departname 
+
+select employee_master.dept_id,ename,city,email,dname from employee_master,department  
+where department.dept_id=employee_master.dept_id
+
+
+-- Dsiplay maximum salary from employee master
+select max(salary) from employee_master 
+
+-- Display Average and maxium of salary 
+select avg(salary) as 'Average salary',max(salary) as 'maximum salary' from employee_master
+
+-- Display how many employees 
+select count(*) from employee_master
+
+-- Left Join 
+select ename,email,salary,employee_master.dept_id from employee_master left join department on
+employee_master.dept_id=department.dept_id
+
+-- right join
+select ename,email,salary,employee_master.dept_id from employee_master right join department on
+employee_master.dept_id=department.dept_id
+
+-- Display sum of salary in each department 
+
+select dname,sum(salary) from employee_master, department where department.dept_id=employee_master.dept_id
+group by employee_master.dept_id
+
+-- Find max salary in each department
+select dname,max(salary) from employee_master, department where department.dept_id=employee_master.dept_id
+group by employee_master.dept_id
+
+-- 25th Nov
+-- find max salary in each department having more then 25000
+select dname,max(salary) from employee_master, department where department.dept_id=employee_master.dept_id
+group by employee_master.dept_id having max(salary)>25000 order by dname
+
+-- find total of employees in each depatment , 
+select dname,count(*) from employee_master,department where department.dept_id=employee_master.dept_id
+group by department.dept_id 
+
+
+-- fetch recoreds whose department have more then 2 employees 
+select dname,count(*) from employee_master,department where department.dept_id=employee_master.dept_id
+group by department.dept_id having count(*)>=2
+
+select * from employee_master limit 2
+
+-- find max salary of each department 
+
+select dname,max(salary) from employee_master,department where department.dept_id=employee_master.dept_id
+group by department.dept_id order by dname limit 2
+
+-- sub 
+select ename,salary from employee_master where salary > (select avg(salary) from employee_master) order by ename
 
 update employee_master set salary=12000 where eid= 15
 
