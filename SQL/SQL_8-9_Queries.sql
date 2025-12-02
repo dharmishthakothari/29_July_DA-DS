@@ -174,3 +174,70 @@ select ename,salary from employee_master where salary > (select avg(salary) from
 update employee_master set salary=12000 where eid= 15
 
 delete from employee_master where eid=15
+
+-- 27th nov
+-- 
+-- fetch department details who does't have employee 
+select dept_id,dname from department where dept_id not in 
+(select dept_id from employee_master where employee_master.dept_id=department.dept_id)
+
+-- find the department which has more then 2 employees
+select dept_id,dname from department 
+where 2<(select count(*) from employee_master where department.dept_id=employee_master.dept_id group by dept_id) 
+
+select employee_master.dept_id,dname,count(eid) from employee_master,department where department.dept_id=employee_master.dept_id
+group by employee_master.dept_id
+
+select * from employee_master where dept_id in(2,3)
+
+-- create view having employee details with department 2 and 3 
+create view emp_dept23 as
+ select * from employee_master where dept_id in(2,3)
+
+select * from emp_dept23
+
+-- create view fetch dept_id,deptname and count emplopyee in each department 
+create view emp_count_dept as
+select employee_master.dept_id,dname,count(eid) from employee_master,department where department.dept_id=employee_master.dept_id
+group by employee_master.dept_id
+
+select * from emp_count_dept
+
+insert into employee_master(ename,city,salary,email,dept_id)
+values("Suraj","Ahemdabad",1234,"dhar@gmail.com",4) ,
+("Parth","Jamnagar",3968,"s@gmail.com",4),
+("Deep","Surat",9023,"pre@gmail.com",5)
+
+-- 29th Nov
+
+select concat(ename,' - ' ,city) as name_city from employee_master
+
+select upper(city) from employee_master
+
+select replace(ename,"Dharmishtha","kothari") from employee_master
+
+select * from student
+select substring(ename,1,5) from employee_master
+
+select *from employee_master
+
+alter table student add birth_date date
+
+insert into student values(167,'ffff' , 'test@tt.com',8989,curdate())
+
+select month(birth_date) from student 
+
+select year(birth_date) from student 
+
+select curdate()
+select curtime()
+
+select salary,ceil(salary) as Rounds_up,floor(salary) as Rounds_down,
+power(salary,0.5) as salary_power, ename from employee_master
+
+
+select get_full_name(ename,city) from employee_master
+
+select getTotalDeptSalary(5)
+
+select dept_id,sum(salary) from employee_master group by dept_id

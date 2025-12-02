@@ -345,13 +345,26 @@ and month(order_date)=8 and year(order_date)=2024
 
 - sub quires 
 
+29th Nov 
+
+- Functions - To perform specific task 
+  	 -in built  - sum,count,avg,max,min....
+	 - user defined - we are going to create 
+	
+	String function - trim , lower,length ,substring
+	Date function 
+	Numeric
+	Aggrgate 
 
 
+lab task - month wise record 
 
 
+2nd Dec
+Lab Task : Functions create to calcualte salary with DA,HRA
 
-
-
+2 Diffrentiate Functions and Stored Procedures 
+3. total_amount for perculat product
 
 
 			  	
