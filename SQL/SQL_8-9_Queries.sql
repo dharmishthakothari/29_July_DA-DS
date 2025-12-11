@@ -241,3 +241,4 @@ select get_full_name(ename,city) from employee_master
 select getTotalDeptSalary(5)
 
 select dept_id,sum(salary) from employee_master group by dept_id
+
